@@ -62,7 +62,7 @@ A custom 4-layer STM32F411 board designed in KiCad, with bare-metal C firmware (
 ### Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=saadafsy&theme=tokyonight&hide_border=true" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=saadafsy&background=00000000&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=8b949e55" alt="Contribution streak" />
 </p>
 
 <p align="center">
@@ -71,8 +71,4 @@ A custom 4-layer STM32F411 board designed in KiCad, with bare-metal C firmware (
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saadafsy/saadafsy/output/github-snake.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/saadafsy/saadafsy/output/github-snake.svg" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="" />
 </p>
