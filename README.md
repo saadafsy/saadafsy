@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=190&section=header&text=Saad&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Electrical%20%26%20Computer%20Engineering&descAlignY=60&descSize=20" alt="Saad - Electrical & Computer Engineering" />
+  <a href="https://portfolio-saad.com">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=190&section=header&text=Saad&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Electrical%20%26%20Computer%20Engineering&descAlignY=60&descSize=20" alt="Saad - Electrical & Computer Engineering" />
+  </a>
 </p>
 
 <p align="center">
@@ -8,6 +10,7 @@
 
 <p align="center">
   <a href="mailto:itssaad50@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff" alt="Email" /></a>
+  <a href="https://portfolio-saad.com"><img src="https://img.shields.io/badge/Website-0d1117?style=for-the-badge&logo=googlechrome&logoColor=58a6ff" alt="Website" /></a>
   <a href="https://github.com/saadafsy?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Repositories" /></a>
 </p>
 
@@ -30,19 +33,12 @@
 ### Selected work
 
 <p align="center">
-  <a href="https://github.com/saadafsy/stm32-sensor-pcb">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=saadafsy&repo=stm32-sensor-pcb&theme=tokyonight&hide_border=true" alt="stm32-sensor-pcb" />
-  </a>
+  <a href="https://github.com/saadafsy/stm32-sensor-pcb"><img src="https://github-readme-stats.vercel.app/api/pin/?username=saadafsy&repo=stm32-sensor-pcb&theme=tokyonight&hide_border=true" alt="stm32-sensor-pcb" align="middle" /></a>
+  <a href="https://github.com/saadafsy/stm32-sensor-pcb"><img src="assets/pcb-top.png" width="190" alt="Board render, top" align="middle" /></a>
+  <a href="https://github.com/saadafsy/stm32-sensor-pcb"><img src="assets/pcb-bottom.png" width="190" alt="Board render, bottom" align="middle" /></a>
 </p>
 
 A custom 4-layer STM32F411 board designed in KiCad, with bare-metal C firmware (direct CMSIS, no HAL) and a FreeRTOS pipeline. A BME280 sensor and an OLED share one I²C bus. Readings go out as CRC-framed packets at 921600 baud to a Python live viewer.
-
-<p align="center">
-  <img src="assets/pcb-top.png" width="300" alt="Board render, top" />
-</p>
-<p align="center">
-  <img src="assets/pcb-bottom.png" width="300" alt="Board render, bottom" />
-</p>
 
 <p align="center"><sub>More projects landing here soon.</sub></p>
 
