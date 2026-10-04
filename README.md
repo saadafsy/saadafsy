@@ -11,24 +11,9 @@
   <a href="https://github.com/saadafsy?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Repositories" /></a>
 </p>
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### About
-I'm an electrical and computer engineering student who likes the whole stack: schematics, PCB layout, bare-metal code and the tooling around it. I'd rather build a thing end to end and learn from where it breaks.
-
-</td>
-<td valign="top" width="50%">
-
-### Right now
-- 🛠 Building hardware and firmware projects
-- 📚 Digital circuits and electromagnetics coursework
-- 🔬 Getting better at the parts between hardware and software
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="assets/info.svg" alt="About and what I am doing right now" />
+</p>
 
 ### Tools
 
@@ -53,8 +38,10 @@ I'm an electrical and computer engineering student who likes the whole stack: sc
 A custom 4-layer STM32F411 board designed in KiCad, with bare-metal C firmware (direct CMSIS, no HAL) and a FreeRTOS pipeline. A BME280 sensor and an OLED share one I²C bus. Readings go out as CRC-framed packets at 921600 baud to a Python live viewer.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-jlc.png" width="45%" alt="Board render, top" />
-  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-bottom.png" width="45%" alt="Board render, bottom" />
+  <img src="assets/pcb-top.png" width="300" alt="Board render, top" />
+</p>
+<p align="center">
+  <img src="assets/pcb-bottom.png" width="300" alt="Board render, bottom" />
 </p>
 
 <p align="center"><sub>More projects landing here soon.</sub></p>

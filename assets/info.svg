@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="210" viewBox="0 0 830 210" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<style>
+.card{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1.5}
+.h{fill:#0969da;font-size:17px;font-weight:600}
+.t{fill:#1f2328;font-size:14px}
+.dot{fill:#0969da}
+@media (prefers-color-scheme: dark){
+.card{fill:#0d1117;stroke:#30363d}
+.h{fill:#58a6ff}
+.t{fill:#e6edf3}
+.dot{fill:#58a6ff}
+}
+</style>
+<rect class="card" x="1" y="1" width="406" height="208" rx="18"/>
+<rect class="card" x="423" y="1" width="406" height="208" rx="18"/>
+<text class="h" x="26" y="38">About</text>
+<text class="t" x="26" y="70">Electrical and computer engineering student who</text>
+<text class="t" x="26" y="94">likes the full stack: schematics, PCB layout,</text>
+<text class="t" x="26" y="118">bare-metal code and the tooling around it. I'd</text>
+<text class="t" x="26" y="142">rather build things end to end and learn from</text>
+<text class="t" x="26" y="166">where they break.</text>
+<text class="h" x="448" y="38">Right now</text>
+<circle class="dot" cx="454" cy="67" r="4"/><text class="t" x="468" y="72">Interning in embedded systems</text>
+<circle class="dot" cx="454" cy="107" r="4"/><text class="t" x="468" y="112">Exploring ASIC design and other corners of EE</text>
+<circle class="dot" cx="454" cy="147" r="4"/><text class="t" x="468" y="152">Building side projects that make my life easier</text>
+</svg>
