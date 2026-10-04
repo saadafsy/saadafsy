@@ -1,35 +1,68 @@
-<h1 align="center">Hey, I'm Saad 👋</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=Electrical+%26+Computer+Engineering;Waterloo%2C+Ontario;I+like+building+things+that+work" alt="Typing intro" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=190&section=header&text=Saad&fontColor=ffffff&fontSize=64&fontAlignY=38&desc=Electrical%20%26%20Computer%20Engineering&descAlignY=60&descSize=20" alt="Saad - Electrical & Computer Engineering" />
 </p>
 
 <p align="center">
-  I enjoy everything from circuits and boards to the software that runs on them.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=58A6FF&center=true&vCenter=true&width=560&lines=Circuits+%E2%86%92+boards+%E2%86%92+firmware+%E2%86%92+software;Waterloo%2C+Ontario;I+like+building+things+that+work" alt="Typing intro" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Verilog-6E40C9?style=flat-square" />
-  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" />
-  <img src="https://img.shields.io/badge/FreeRTOS-4BBF4B?style=flat-square" />
+  <a href="mailto:itssaad50@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff" alt="Email" /></a>
+  <a href="https://github.com/saadafsy?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff" alt="Repositories" /></a>
 </p>
 
-## Selected work
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### [STM32 Sensor Telemetry Board](https://github.com/saadafsy/stm32-sensor-pcb)
-A custom 4-layer STM32F411 board I designed in KiCad, with bare-metal C firmware (direct CMSIS, no HAL) and a FreeRTOS pipeline. It reads a BME280 and drives an OLED over a shared I²C bus. Readings go out as CRC-framed packets at 921600 baud to a Python live viewer.
+### About
+I'm an electrical and computer engineering student who likes the whole stack: schematics, PCB layout, bare-metal code and the tooling around it. I'd rather build a thing end to end and learn from where it breaks.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-jlc.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-bottom.png" width="45%" />
+</td>
+<td valign="top" width="50%">
+
+### Right now
+- 🛠 Building hardware and firmware projects
+- 📚 Digital circuits and electromagnetics coursework
+- 🔬 Getting better at the parts between hardware and software
+
+</td>
+</tr>
+</table>
+
+### Tools
+
+<p>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Verilog-6E40C9?style=flat-square" alt="Verilog" />
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad" />
+  <img src="https://img.shields.io/badge/FreeRTOS-4BBF4B?style=flat-square" alt="FreeRTOS" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
-<p align="center"><sub>More projects coming soon.</sub></p>
+### Selected work
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=saadafsy&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/saadafsy/stm32-sensor-pcb">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=saadafsy&repo=stm32-sensor-pcb&theme=tokyonight&hide_border=true" alt="stm32-sensor-pcb" />
+  </a>
+</p>
+
+A custom 4-layer STM32F411 board designed in KiCad, with bare-metal C firmware (direct CMSIS, no HAL) and a FreeRTOS pipeline. A BME280 sensor and an OLED share one I²C bus. Readings go out as CRC-framed packets at 921600 baud to a Python live viewer.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-jlc.png" width="45%" alt="Board render, top" />
+  <img src="https://raw.githubusercontent.com/saadafsy/stm32-sensor-pcb/main/docs/img/board-bottom.png" width="45%" alt="Board render, bottom" />
+</p>
+
+<p align="center"><sub>More projects landing here soon.</sub></p>
+
+### Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=saadafsy&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 </p>
 
 <p align="center">
@@ -41,5 +74,5 @@ A custom 4-layer STM32F411 board I designed in KiCad, with bare-metal C firmware
 </p>
 
 <p align="center">
-  <a href="mailto:itssaad50@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=110&section=footer" alt="" />
 </p>
