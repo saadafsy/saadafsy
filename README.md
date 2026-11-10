@@ -20,10 +20,10 @@ A fixed-point attention accelerator (one transformer attention head) with a 4x4 
 <sub><b>79.4 MHz</b> sky130 signoff, 0 DRC &nbsp;·&nbsp; <b>19.9</b> MAC/cycle &nbsp;·&nbsp; <b>21.8x</b> faster than optimized C on a RISC-V core &nbsp;·&nbsp; placed and routed, not taped out</sub></td>
 </tr>
 <tr>
-<td><img src="assets/p2-layout.png" width="180" alt="RV32IM core, sky130 layout"></td>
-<td><b>p2-riscv-soc</b> &nbsp;<sub>SystemVerilog · C firmware · UVM · riscv-formal · OpenROAD</sub><br>
+<td><a href="https://github.com/saadafsy/p2-riscv-soc"><img src="assets/p2-layout.png" width="180" alt="RV32IM core, sky130 layout"></a></td>
+<td><b><a href="https://github.com/saadafsy/p2-riscv-soc">p2-riscv-soc</a></b> &nbsp;<sub>SystemVerilog · C firmware · UVM · riscv-formal · OpenROAD</sub><br>
 A 5-stage RV32IM RISC-V SoC with APB peripherals, JTAG debug, RAM self-test, C firmware built with clang, and the attention accelerator on AXI4-Lite in its own clock domain. Every instruction checked against a Python ISS.<br>
-<sub><b>119.8 MHz</b> core signoff &nbsp;·&nbsp; riscv-formal <b>52/52</b> &nbsp;·&nbsp; <b>2.27</b> CoreMark/MHz &nbsp;·&nbsp; full SoC meets timing in Vivado &nbsp;·&nbsp; private repo, walkthrough on request</sub></td>
+<sub><b>119.8 MHz</b> core signoff &nbsp;·&nbsp; riscv-formal <b>52/52</b> &nbsp;·&nbsp; <b>2.27</b> CoreMark/MHz &nbsp;·&nbsp; full SoC meets timing in Vivado</sub></td>
 </tr>
 </table>
 
